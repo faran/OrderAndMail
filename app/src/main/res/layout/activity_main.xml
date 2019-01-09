@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.softs.mt.orderandmail.MainActivity">
+
+    <ImageView
+        android:id="@+id/ivCreate"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:tooltipText="Create a order"
+        app:srcCompat="@drawable/create"/>
+
+    <ImageView
+        android:id="@+id/ivRepeat"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        app:srcCompat="@drawable/repeat"/>
+
+    <ImageView
+        android:id="@+id/ivHistory"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        app:srcCompat="@drawable/history"/>
+
+</LinearLayout>
